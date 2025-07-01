@@ -4,7 +4,7 @@ import svgr from 'vite-plugin-svgr';
 import path from 'path';
 
 export default defineConfig({
-  base: '/react_phone-catalog/',
+  base: '/nice-gadgets-store/',
   plugins: [react(), svgr()],
   css: {
     preprocessorOptions: {
